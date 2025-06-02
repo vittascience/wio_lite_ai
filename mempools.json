@@ -1,0 +1,18 @@
+{
+    "memory": {
+        "mempools": [
+            {
+                   "name": "extmem",
+                   "prop": { "throughput": "HIGH", "latency": "LOW" },
+                    "size":   { "value": "7000", "magnitude": "KBYTES" },
+                    "offset":   { "value": "0x90100000", "magnitude": "BYTES" }
+            },
+            {
+                   "name": "pool2",
+                   "prop": { "throughput": "HIGH", "latency": "MID" },
+                    "size":   { "value": "128", "magnitude": "KBYTES" },
+                    "offset":   { "value": "0", "magnitude": "BYTES" }
+            }
+        ]
+    }
+}
